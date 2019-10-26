@@ -1,9 +1,10 @@
 package id.ac.polinema.recyclerviewsangatsederhana.models;
 
 public class SuperHero {
-    public String heroName, image;
+    public String heroName;
+    public int image;
 
-    public SuperHero(String heroName, String image) {
+    public SuperHero(String heroName, int image) {
         this.heroName = heroName;
         this.image = image;
     }
@@ -12,11 +13,11 @@ public class SuperHero {
         return heroName;
     }
 
-    public String getImage() {
+    public int getImage() {
         return image;
     }
 
-    public void setImage(String image) {
+    public void setImage(int image) {
         this.image = image;
     }
 

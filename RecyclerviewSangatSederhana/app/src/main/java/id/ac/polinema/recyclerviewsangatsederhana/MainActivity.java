@@ -25,11 +25,11 @@ public class MainActivity extends AppCompatActivity {
         //menyambungkan rvSuperHero ke layout
         rvSuperHero = findViewById(R.id.rvSuperHero);
         //Membuat object hero
-        SuperHero hero = new SuperHero("Petruk", "https://upload.wikimedia.org/wikipedia/commons/a/a6/COLLECTIE_TROPENMUSEUM_Papieren_wayangpop_voorstellende_Petruk_%28kinderspeelgoed%29_TMnr_809-45b.jpg");
+        SuperHero hero = new SuperHero("Petruk", R.drawable.petruk);
         //menambahkan hero ke listSuperHero
         listSuperHero.add(hero);
         //membuat object hero baru
-        hero = new SuperHero("Gareng", "https://upload.wikimedia.org/wikipedia/commons/f/f8/COLLECTIE_TROPENMUSEUM_Papieren_wayangpop_voorstellende_Nala-gareng_%28kinderspeelgoed%29_TMnr_809-45c.jpg");
+        hero = new SuperHero("Gareng", R.drawable.gareng);
         //menambahkan hero baru ke listSuperhero
         listSuperHero.add(hero);
         //Instansiasi Adapter
